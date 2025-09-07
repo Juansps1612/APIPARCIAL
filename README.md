@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-Framework-black?logo=flask)](https://flask.palletsprojects.com/)  
 [![SQLite](https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite)](https://www.sqlite.org/)  
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
 
 Este proyecto es una **API RESTful** desarrollada en Python usando **Flask**, diseñada para gestionar jugadores de fútbol y su información básica.  
 Los datos se almacenan en una base de datos **SQLite** (a través de SQLAlchemy) y la API permite realizar operaciones CRUD sobre los jugadores.  
@@ -35,9 +34,9 @@ Los datos se almacenan en una base de datos **SQLite** (a través de SQLAlchemy)
     "nacionalidad": "Argentina"
   }
 
-- **PUT** /jugadores/<id>: Actualiza los datos de un jugador existente.
+- **PUT** `/jugadores/<id>`: Actualiza los datos de un jugador existente.
 
-- **DELETE** /jugadores/<id>: Elimina un jugador por su ID.
+- **DELETE** `/jugadores/<id>`: Elimina un jugador por su ID.
 
 ## Ejemplos de uso
 
