@@ -68,9 +68,11 @@ curl -i -X DELETE http://localhost:5000/jugadores/1
 
 - Python 3.12+
 
-## Instalación y depuración
+## Instalación, depuración y ejecución
 
-1. Instala las dependencias: pip install -r requirements.txt
+1. Ejecutar archivo con toda la configuración inicial: bash setup.sh
+
+   1.1 Una vez se haya terminado de configurar todo correctamente, nos dirigimos al archivo .env recien creado y cambiamos la contraseña de la base datos por        la que se puso al momento de configurar
 
 2. Ejecuta la aplicación: python3 src/app.py
 
