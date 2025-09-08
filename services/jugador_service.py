@@ -44,7 +44,7 @@ def create_jugador(data):
 
     if existing:
         session.close()
-        return {"error": f"⚠️ El jugador '{data['nombre']}' ya está registrado en el equipo '{data['equipo']}'"}
+        return {"error": f"El jugador '{data['nombre']}' ya está registrado en el equipo '{data['equipo']}'"}
 
     jugador = Jugador(
         nombre=data["nombre"],

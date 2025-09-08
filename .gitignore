@@ -2,9 +2,6 @@
 venv/
 .env
 
-# Archivos y carpetas ocultos en Codespaces
-scripts/
-.vscode/
 
 # Archivos del sistema
 __pycache__/

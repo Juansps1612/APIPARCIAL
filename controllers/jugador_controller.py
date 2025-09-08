@@ -30,6 +30,11 @@ def create_jugador_route():
         return jsonify({"error": "Faltan campos requeridos"}), 400
     
     jugador = create_jugador(request.json)
+    
+    # 🔹 Si la respuesta contiene un error, devolvemos 400
+    if "error" in jugador:
+        return jsonify(jugador), 400
+
     return jsonify(jugador), 201
 
 @jugador_bp.route("/jugadores/<int:jugador_id>", methods=["PUT"])
