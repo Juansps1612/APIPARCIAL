@@ -76,6 +76,8 @@ curl -i -X DELETE http://localhost:5000/jugadores/1
 
 2. Ejecuta la aplicación: python3 src/app.py
 
+Para ejecución de menú simultaneo en consola poner en terminar: python scripts/menu.py
+
 ## Notas
 
 - Los datos se almacenan en SQLite, en un archivo jugadores.db.
